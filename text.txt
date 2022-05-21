@@ -1,0 +1,9 @@
+document.getElementById("object_detected").innerHTML= "No of Objects Detected are:" + objects.length;  
+
+
+            if(objects[i].label == person){
+document.getElementById("object_detected").innerHTML= "Objects Detected = Person";  
+
+            }
+
+            img= loadImage('tv.png');
